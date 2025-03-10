@@ -3,7 +3,7 @@ const fs = require('fs');
 
 class AddressBookApp {
     constructor() {
-        this.filePath = 'addressBooks.json';
+        this.filePath = 'AddressBooks.json';
         this.addressBooks = this.loadAddressBooks();
     }
 
