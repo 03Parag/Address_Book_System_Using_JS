@@ -2,7 +2,7 @@ const fs = require('fs');
 
 class AddressBook {
     constructor() {
-        this.filePath = 'contacts.json';
+        this.filePath = 'Contacts.json';
         this.contacts = this.loadContacts();
     }
 
